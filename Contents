@@ -10,7 +10,8 @@ GIT COMMANDS:
 - recording the changes made to the files in a local repository
 	git commit -m "commit msg"
 
-- git status command: returns the current state of the repo, returns current woking branch, if a file is in the staging area but not committed it shows the status, if there aren't any changes->"nothing to commit".
+- git status command: 
+	Returns the current state of the repo, returns current working branch, if a file is in the staging area but not committed it shows the status, if there aren't any changes->"nothing to commit".
 
 BRANCHING in git:
 Every branch in git is referenced by HEAD which points to the latest commit in the branch.
