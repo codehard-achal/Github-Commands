@@ -1,5 +1,5 @@
 ==================================================================================================
-GIT COMMANDS:
+GIT COMMANDS
 ==================================================================================================
 ---------------------------------------------------------------------------------------------------
 Initiating a new Repository
@@ -9,7 +9,7 @@ Initiating a new Repository
 
 - adding files to the repo
 	git add <filename> or git add . (to add all the files in the local repo) //this commands adds all the files and the changes made to the files to the staging area for further commit process.
-
+	
 - recording the changes made to the files in a local repository
 	git commit -m "commit msg"
 
@@ -18,6 +18,17 @@ Initiating a new Repository
 
 - git status command: 
 	Returns the current state of the repo, returns current working branch, if a file is in the staging area but not committed it shows the status, if there aren't any changes->"nothing to commit".
+
+---------------------------------------------------------------------------------------------------
+Pushing changes to an existing Remote Repository
+---------------------------------------------------------------------------------------------------
+In order to push changes to a remote repo from your local repo, you must:
+1. Pull (or fetch and merge) the changes made to the remote repo into the local repo.
+2. Push your updates from the local repo to the remote repo.
+
+Execute the following:
+1. git pull <REMOTENAME> <BRANCHNAME>
+2.  git push  <REMOTENAME> <BRANCHNAME> 
 ---------------------------------------------------------------------------------------------------
 BRANCHING in Git:
 ---------------------------------------------------------------------------------------------------
@@ -48,6 +59,7 @@ TO CONNECT TO A REMOTE REPO ON GITHUB:
 - git push origin master: Pushes the changes from the local repo t the remote repo.
 
 NOTE: Before calling on the push command make sure that the changes are committed to the local repo.
+
 ===================================================================================================
 ADVANCED COMMANDS
 ===================================================================================================
