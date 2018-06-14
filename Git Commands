@@ -1,7 +1,9 @@
 ==================================================================================================
 GIT COMMANDS:
 ==================================================================================================
-
+---------------------------------------------------------------------------------------------------
+Initiating a new Repository
+---------------------------------------------------------------------------------------------------
 - creating a new repo: 
 	git init <path to dir>
 
@@ -12,7 +14,7 @@ GIT COMMANDS:
 	git commit -m "commit msg"
 
 - In order to push changes (or newly created files) in the repository, one needs to "push" the data to the remote repo.
-	git push or git push origin master (if pushing in the master branch). 
+	git push or git push -u origin master (if pushing in the master branch). 
 
 - git status command: 
 	Returns the current state of the repo, returns current working branch, if a file is in the staging area but not committed it shows the status, if there aren't any changes->"nothing to commit".
